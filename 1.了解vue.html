@@ -12,7 +12,7 @@
 </div> <!--当前id可以用于vue绑定内容-->
 <div id="app1">
     <!--{{}}支持三元表达式-->
-    双向{{name==='hello world1'?'zfpx':name}}
+    双向{{name==='helloworld1'?'zfpx':name}}
     {{3+5*2}} <br>
     <!--有的时候数据只绑定一次，当修改的时候就不再绑定了-->
     {{*name}} <br>
@@ -35,7 +35,7 @@
         el:"#app1", //选择作用的范围
         //绑定数据
         data:{ //在这绑定的是数据层
-            name:'hello world1' //$scope.name = 1;
+            name:'helloworld1' //$scope.name = 1;
         }
     });
 </script>
